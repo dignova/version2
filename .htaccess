@@ -1,5 +1,9 @@
-RewritEngine on
+RewriteBase /
 
-Reritecond %(REQUEST_FILENAME) !-f
+RewriteEngine on
 
-ReriteRule ^([^\.]+)$ $1.html [NC,L]
+ReriteCond %{REQUEST_FILENAME} !-d
+
+ReriteCond %{REQUEST_FILENAME}.html -f
+
+ReriteRule ^(.*)$ $1.html [NC,L]
