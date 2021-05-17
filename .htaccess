@@ -2,4 +2,4 @@ RewritEngine on
 
 Reritecond %(REQUEST_FILENAME) !-f
 
-ReriteRule ^([^\.]+)$ $1.html
+ReriteRule ^([^\.]+)$ $1.html [NC,L]
