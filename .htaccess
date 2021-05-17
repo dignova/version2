@@ -1,0 +1,5 @@
+RewritEngine on
+
+Reritecond %(REQUEST_FILENAME) !-f
+
+ReriteRule ^([^\.]+)$ $1.html
