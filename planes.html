@@ -665,10 +665,24 @@
 			</ul>
              
            </div>
-		 
-           <div class="pricing-table-footer">
-             <a href="#">Lo Quiero</a>
-           </div>
+		
+		<form class="pricing-table-footer" method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+  		<input type="image" border="0" alt="" src="https://raw.githubusercontent.com/dignova/version2/gh-pages/img/boton%20lo%20quiero%20dignova.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
+  		<input name="buttonId" type="hidden" value="M/qSG2YdJyXfdads5PqVC9Dt1nrdTXZ3FdOi7bFLXix7CQmqK4UVbQ=="/>
+  		<input name="merchantId" type="hidden" value="587200"/>
+  		<input name="accountId" type="hidden" value="590222"/>
+  		<input name="description" type="hidden" value="Video Basic 30s"/>
+  		<input name="referenceCode" type="hidden" value="VB10"/>
+  		<input name="amount" type="hidden" value="39.00"/>
+  		<input name="tax" type="hidden" value="0.00"/>
+  		<input name="taxReturnBase" type="hidden" value="0.00"/>
+  		<input name="currency" type="hidden" value="USD"/>
+  		<input name="lng" type="hidden" value="es"/>
+  		<input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+  		<input name="buttonType" value="SIMPLE" type="hidden"/>
+  		<input name="signature" value="0af2b31e10a267323d0aae2cde81e84f59eb801af0fc8aad7a3c4ff9736767de" type="hidden"/>
+		</form>
+           
          </div>
          <!-- basic table end -->
 
