@@ -13,19 +13,7 @@
  });
 
 
- //modal
-$(document).ready(function(){
-      $('#show-modal-pagoinicial').on('click', function(){
-        $('.modal-pagoinicial').css({'visibility': 'visible', 'opacity': '1'});
-      });
-        $('.modal .modal-box .icon i').on('click', function(){
-        $('.modal').css({'visibility': 'hidden', 'opacity': '0'});
-      });
-    
-        $('.modal .modal-box .content .modal-links a').on('click', function(){
-        $('.modal').css({'visibility': 'hidden', 'opacity': '0'});
-      });
-    });
+
 
  //tabs
 
