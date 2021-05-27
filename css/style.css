@@ -94,7 +94,7 @@ header{
     background: #fff;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     top:0; left: 0;
     z-index: 1000;
@@ -802,6 +802,7 @@ header .navbar ul li a:hover{
         background: #fff0;
         bottom: 0;
         top: auto;
+        justify-content: center;
 
     }
 
