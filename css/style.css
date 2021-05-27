@@ -714,7 +714,7 @@ header .navbar ul li a:hover{
 @media (max-width: 800px) {
     .container {
         width: auto;
-        margin: 50px;
+        margin: 0px;
     }
     .count div::before {
         width: 150px;
