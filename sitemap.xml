@@ -7,12 +7,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://www.dignova.digital/aviso-cookies</loc>
-    <lastmod>2021-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
   <url>
     <loc>https://www.dignova.digital/index.html</loc>
     <lastmod>2021-05-27</lastmod>
@@ -37,12 +32,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://www.dignova.digital/terminos-y-condiciones</loc>
-    <lastmod>2021-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
   <url>
     <loc>https://www.dignova.digital/planes</loc>
     <lastmod>2021-05-27</lastmod>
