@@ -1054,7 +1054,7 @@ header .navbar ul li a:hover{
 }
 
 .slider .slider-cliente {
-  display: flex;
+  display: none;
   width: calc(250px * 14);
   animation: scroll 40s infinite linear;
 }
