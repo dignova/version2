@@ -848,6 +848,11 @@ video {
 
     .home {
         padding-top: 20px;
+        height: max-content;
+    }
+    
+    .home video {
+        height: max-content;
     }
 
     section{
