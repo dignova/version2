@@ -848,7 +848,7 @@ video {
 
     .home {
         padding-top: 20px;
-        height: max-content;
+        height: 160%;
     }
     
     .home video {
@@ -859,6 +859,10 @@ video {
         padding:0 3%;
         padding-top: 3rem;
     }
+    
+    section#estrategia {
+        background: #f5fbff;
+}
 
     .branding a:before, .branding a:after {
         left: 45%;
