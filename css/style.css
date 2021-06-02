@@ -37,7 +37,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#f9f9f9;
+    background:#f5fbff;
 }
 
 section{
@@ -393,7 +393,7 @@ video {
 /* secction marketing*/
 
 .marketing{
-    background:#eee;
+    background:#f5fbff;
 }
 
 .marketing .row{
