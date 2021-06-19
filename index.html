@@ -22,6 +22,9 @@
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
+    <-- animacion aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!--  css archivo link  -->
     <link rel="stylesheet" href="css/style.css">
@@ -81,6 +84,10 @@
     <!-- video no se mostrara <video src="img/Nebula - 25168.mp4" autoplay muted loop playsinline muted>
     </video> -->
     <div class="content">
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+        </div>
 
         <span>DIGNOVA.DIGITAL</span>
         <h1>Agencia De Marketing</h1>
@@ -95,7 +102,11 @@
     </div>
 
     <div class="image">
-        
+        <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
+</div>
 <lottie-player id="lottieimg" src="https://assets9.lottiefiles.com/packages/lf20_dvgwa7rz.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
     </div>
 </section>
@@ -762,6 +773,11 @@ Que esperas?, estas un paso adelante de la competencia. <br>“Una Web te genera
 <!--script de animacion svg movimiento lottie------------------->
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
+<!--script de animacion aos scroll------------------->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 <!--type.js de home palabras---------------->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
