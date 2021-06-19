@@ -882,6 +882,11 @@ video {
     .branding a { 
         left: 18%;
     }
+    
+    #lottieimg {
+        width: 300px;
+        height: 300px;
+    }
 
 }
 
