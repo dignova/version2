@@ -406,7 +406,7 @@ video {
 
 .marketing .row .image{
     flex:1 1 37rem;
-    height:35rem;
+    height:auto;
     text-align: center;
 }
 
